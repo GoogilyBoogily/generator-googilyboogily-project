@@ -1,6 +1,6 @@
 {
   "name": "generator-googilyboogily-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generator for GoogilyBoogily related projects.",
   "keywords": [
     "yeoman-generator"

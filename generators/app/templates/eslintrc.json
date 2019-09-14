@@ -8,6 +8,5 @@
     "commonjs": true,
     "es6": true
   },
-  "extends": "@chr/eslint-config-msft-api"
+  "extends": "eslint-config-googilyboogily"
 }
-
