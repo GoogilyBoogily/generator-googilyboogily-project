@@ -1,0 +1,25 @@
+# Tests and coverage
+.nyc_output/
+coverage/
+test/
+
+# Example code
+examples/
+
+# Logs
+*.log
+
+# Build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+# Linters
+.jscsrc
+.jshintrc
+.eslint*
+
+# Editor settings
+.idea
+.editorconfig
+.vscode/

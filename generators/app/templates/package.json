@@ -1,0 +1,19 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "description": "<%= projectDescription %>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogilyBoogily/<%= projectRepositoryName %>.git"
+  },
+  "license": "ISC",
+  "author": "Microsoft API",
+  "main": "./src/index.js",
+  "scripts": {
+    "burnthemall": "rimraf node_modules/ package-lock.json",
+    "start": "node ./src/index.js",
+    "test": ""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

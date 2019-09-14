@@ -1,0 +1,31 @@
+{
+  "name": "generator-googilyboogily-project",
+  "version": "1.0.0",
+  "description": "Generator for GoogilyBoogily related projects.",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "author": "GoogilyBoogily",
+  "files": [
+    "generators"
+  ],
+  "main": "./generators/app/index.js",
+  "scripts": {
+    "burnthemall": "rimraf node_modules/ package-lock.json",
+    "test": ""
+  },
+  "dependencies": {
+    "yeoman-assert": "3.1.1",
+    "yeoman-generator": "4.0.2",
+    "yeoman-test": "2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "6.4.0",
+    "eslint-config-googilyboogily": "1.0.0"
+  }
+}

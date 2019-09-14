@@ -1,0 +1,14 @@
+.dockerignore text
+.editorconfig text
+.editorconfig text
+.eslintignore text
+.gitignore text
+.npmignore text
+* text eol=lf
+*.css text
+*.html text
+*.js text
+*.json text
+*.md text
+*.txt text
+Dockerfile text
