@@ -11,6 +11,7 @@
   "main": "./src/index.js",
   "scripts": {
     "burnthemall": "rimraf node_modules/ package-lock.json",
+    "prepare": "sort-package-json && depcheck",
     "start": "node ./src/index.js",
     "test": ""
   },

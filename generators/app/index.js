@@ -77,8 +77,8 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
-      this.templatePath('eslintrc.json'),
-      this.destinationPath('.eslintrc.json')
+      this.templatePath('eslintrc.js'),
+      this.destinationPath('.eslintrc.js')
     );
 
     this.fs.copy(
@@ -140,9 +140,11 @@ module.exports = class extends Generator {
       'npm',
       [
         'install',
+        'depcheck',
         'eslint-config-googilyboogily',
         'eslint',
         'rimraf',
+        'sort-package-json',
         '--save-dev',
         '--save-exact'
       ]
